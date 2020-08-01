@@ -41,7 +41,7 @@ header{
 .hero{
     width:95%;
     height:90vh;
-    background:url(images/house.jpg) center center no-repeat;
+    background:url(../images/house.jpg) center center no-repeat;
     background-size:cover;
     position:relative;
 }
@@ -211,7 +211,7 @@ li a{
 .second .right{
     flex-basis: 50%;
     height:700px;
-    background:url(images/img1.jpg) center center no-repeat;
+    background:url(../images/img1.jpg) center center no-repeat;
     background-size:cover;
     position:relative;
     z-index:10;
