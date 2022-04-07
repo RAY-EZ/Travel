@@ -3,7 +3,7 @@ const toggle = document.querySelector('.toggle.close');
 const navList = document.querySelector('.nav-list');
 
 /*****************************************************************
-NavList Here -- Forgive me For Naive Approach I'm fucking dumb lol
+NavList Here 
 ******************************************************************/
 hamMenu.addEventListener('click',function(e){
     navList.style.display="block";
@@ -36,7 +36,7 @@ var show = document.querySelector('.show');
 //use event delegation for accessing arrow keys 
 //move show class to hightlight Image number 
 //Copy the value of show class into background url
-// Algo to make it work
+
 slider.addEventListener('click',function(e){
     if(e.target.classList.contains('fa-arrow-right')){
         var nextSib = show.nextElementSibling;
